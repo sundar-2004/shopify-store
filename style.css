@@ -1,0 +1,122 @@
+nav{
+    background-color: rgba(20, 20, 20, 0.799);
+    color: aliceblue;
+    padding: 10px;
+}
+.second{
+    display:none;
+}
+.first li:nth-child(2):hover.second{
+    display: block;
+}
+h1,li,ul{
+    display: inline;
+    padding: 2px;
+    text-align: center;
+}
+ul{
+    margin-left: 60%;
+    }
+li{
+    color: silver;
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    color: aliceblue;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}
+li:active{
+    background-color: rgb(114, 162, 199);
+}
+.searchbar{
+    padding: 50px;
+    text-align: center;
+}
+input{
+    width: 500px;
+    padding: 10px;
+}
+.watch1{
+    border: solid;
+    width: 250px;
+    display: inline-block;
+    border-width: 10px;
+    text-align: center;
+}
+.products.p{
+    width: 250px;
+
+}
+.watch2{  
+    border: solid;
+    width: 250px;
+    display: inline block;
+    border-width: 15px;
+    text-align: center;
+
+}
+.watch3{
+    border: solid;
+    width: 250px;
+    display: inline block;
+    border-width: 15px;
+    text-align: center;
+}
+p:hover{
+    background-color: rgb(37, 37, 36);
+    color: rgb(206, 233, 32);
+    cursor: pointer;
+}
+h2,.para2,.contactus,.about{
+    color: azure;
+    text-align: center;
+    padding: 10px;
+}
+.contactus{
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+}
+.contactus:hover{
+    background-color: rgb(14, 14, 14);
+    color: rgb(235, 237, 239);
+}
+.watch1{
+    float:none;
+    margin-left: 160px;
+}
+.watch2{
+    float: right;
+    margin-right: 140px;
+}
+.watch3{
+    float: right;
+    margin-right: 100px;}
+
+.products,.about{
+    padding-top: 20px;
+}
+body{
+    background-image:url(./download.jpeg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+.products{
+    color: aliceblue;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes  box{
+    from{
+        transform: translateX(2px) skewX(20deg);
+    }
+    to{
+        transform: translateX(-2px) skewX(-20deg);
+    }
+
+}
